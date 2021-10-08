@@ -28,6 +28,9 @@ body {
   text-decoration: none;
   color: var(--primery-text-color);
 }
+.nav-link.current {
+  color: var(--accent-text-color);
+}
 .nav-contact {
   color: var(--secondary-text-color);
 }
@@ -62,7 +65,14 @@ body {
 /* Блок с преимуществами */
 
 .feature-title {
-  font-size: 0%;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 .feature-list {
   list-style: none;
@@ -125,4 +135,39 @@ body {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-text-color);
+}
+
+/* Страница Портфолио */
+/* Примеры работ */
+
+.portfolio-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+.portfolio-buttons {
+  list-style: none;
+}
+.portfolio-item {
+  color: var(--primery-text-color);
+  background-color: #f5f4fa;
+}
+.portfolio-item:hover,
+.portfolio-item:focus {
+  color: var(--text-white-color);
+  background-color: var(--accent-text-color);
+}
+.portfolio-list {
+  list-style: none;
+}
+.portfolio-subtitle {
+  color: var(--primery-text-color);
+}
+.portfolio-text {
+  color: var(--secondary-text-color);
 }
