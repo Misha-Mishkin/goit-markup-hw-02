@@ -1,0 +1,128 @@
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+
+:root {
+  --primery-text-color: #212121;
+  --secondary-text-color: #757575;
+  --text-white-color: #ffffff;
+  --accent-text-color: #2196f3;
+}
+
+/* Блок header */
+
+.logo {
+  text-decoration: none;
+}
+.web {
+  color: var(--accent-text-color);
+}
+.studio {
+  color: #000000;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: var(--primery-text-color);
+}
+.nav-contact {
+  color: var(--secondary-text-color);
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-contact:hover,
+.nav-contact:focus {
+  color: var(--accent-text-color);
+}
+
+/* Главная страница */
+/* Блок main */
+/* Блок со слайдером */
+
+.main-section {
+  background-color: #2f303a;
+}
+.main-title {
+  color: var(--text-white-color);
+  text-transform: uppercase;
+  text-align: center;
+}
+.main-button {
+  background-color: var(--accent-text-color);
+  color: var(--text-white-color);
+}
+.main-button:hover,
+.main-button:focus {
+  background-color: #188ce8;
+}
+
+/* Блок с преимуществами */
+
+.feature-title {
+  font-size: 0%;
+}
+.feature-list {
+  list-style: none;
+}
+.feature-subtitle {
+  color: var(--primery-text-color);
+  text-transform: uppercase;
+  text-align: left;
+}
+.feature-text {
+  color: var(--secondary-text-color);
+  text-align: left;
+}
+
+/* Блок с картинками */
+
+.info-title {
+  color: var(--primery-text-color);
+  text-align: center;
+}
+.info-list {
+  list-style: none;
+}
+
+/* Блок Наша команда */
+
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  color: var(--primery-text-color);
+  text-align: center;
+}
+.team-list {
+  list-style: none;
+}
+.team-subtitle {
+  color: var(--primery-text-color);
+}
+.team-text {
+  color: var(--secondary-text-color);
+}
+
+/* Подвал сайта */
+
+.footer {
+  background-color: #2f303a;
+}
+.footer-location {
+  color: var(--text-white-color);
+}
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-location,
+.footer-contact {
+  font-style: normal;
+}
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-text-color);
+}
