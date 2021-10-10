@@ -83,6 +83,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
+  cursor: pointer;
 }
 .main-button:hover,
 .main-button:focus {
@@ -212,6 +213,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  cursor: pointer;
 }
 .portfolio-item:hover,
 .portfolio-item:focus {
